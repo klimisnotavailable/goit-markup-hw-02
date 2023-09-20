@@ -20,14 +20,34 @@ a:active {
 }
 
 :root {
+  /* logo */
+  --logo-accent: rgba(77, 90, 229, 1);
+  --logo-primary: rgba(46, 47, 66, 1);
+
+  /* titles */
+  --title-dark: rgba(46, 47, 66, 1);
+
+  /* buttons */
   --primary-button: rgba(77, 90, 229, 1);
   --button-hover: rgba(64, 75, 191, 1);
   --button-active: rgba(64, 75, 191, 1);
-  --primary-text: rgba(00, 00, 00, 1);
+  --button-text: rgba(255, 255, 255, 1);
+
+  /*  text */
+  --primary-text: rgba(67, 68, 85, 1);
+
+  /* navigation links */
+  --navigation-link-primary: rgba(46, 47, 66, 1);
+  --navigation-link-hover: rgba(64, 75, 191, 1);
+  --navigation-link-focus: rgba(64, 75, 191, 1);
+
+  /* address links */
+  --address-link-primary: rgba(67, 68, 85, 1);
+  --address-link-hover: rgba(64, 75, 191, 1);
+  --address-link-focus: rgba(64, 75, 191, 1);
 }
 
 nav,
-footer,
 header,
 aside {
   display: block;
@@ -96,48 +116,94 @@ body {
 
 h1 {
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.1;
   letter-spacing: 1.12px;
 }
 
 h2 {
+  color: var(--title-dark);
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.1;
   text-transform: capitalize;
 }
 
 h3 {
+  color: var(--title-dark);
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.4px;
 }
 
 p,
 .navigation-link {
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
 /* header */
 .logo {
   font-family: "Raleway", sans-serif;
+  color: var(--logo-accent);
+  display: flex;
+  gap: 0px;
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
 }
 
-.address-link {
-  line-height: 24px; /* 150% */
+.logo-accent {
+  color: var(--logo-primary);
+}
+
+.navigation-list {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.navigation-link {
+  color: var(--navigation-link-primary);
+}
+
+.navigation-link:hover {
+  color: var(--navigation-link-hover);
+}
+
+.navigation-link:focus {
+  color: var(--navigation-link-focus);
+}
+
+.address-list {
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
+.address-link {
+  color: var(--address-link-primary);
+}
+
+.address-link:hover {
+  color: var(--address-link-hover);
+}
+
+.address-link:focus {
+  color: var(--address-link-focus);
+}
+
 /* hero section */
+
 .button {
-  color: var(--primary-button);
+  background-color: var(--primary-button);
+  color: var(--button-text);
+  padding: 16px 32px;
 }
 
 .button:hover {
-  color: var(--button-hover);
+  background-color: var(--button-hover);
 }
 
 .button:active {
-  color: var(--button-active);
+  background-color: var(--button-active);
 }
