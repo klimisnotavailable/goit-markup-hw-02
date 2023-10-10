@@ -46,6 +46,10 @@ a:active {
   --address-link-primary: rgba(67, 68, 85, 1);
   --address-link-hover: rgba(64, 75, 191, 1);
   --address-link-focus: rgba(64, 75, 191, 1);
+
+  /* backgrounds */
+  --background-light: rgba(244, 244, 253, 1);
+  --background-white: rgba(255, 255, 255, 1);
 }
 
 nav,
@@ -130,16 +134,17 @@ h1 {
   letter-spacing: 1.12px;
 }
 
-h2 {
+.section-title {
   color: var(--title-dark);
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  text-align: center;
 }
 
-h3 {
+.benefit {
   color: var(--title-dark);
   font-size: 20px;
   font-weight: 500;
@@ -161,6 +166,7 @@ p {
   display: flex;
   gap: 0px;
   font-size: 18px;
+  font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
@@ -220,6 +226,10 @@ p {
 .button {
   background-color: var(--primary-button);
   color: var(--button-text);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
   padding: 16px 32px;
 }
 
@@ -227,13 +237,26 @@ p {
   background-color: var(--button-hover);
 }
 
-.button:active {
+.button:focus {
   background-color: var(--button-active);
 }
 
 /* team section */
 
-.team-section p {
+.team-section {
+  background-color: var(--background-light);
+}
+
+.master-item {
+  background-color: var(--background-white);
+}
+
+.master-position {
   font-size: 16px;
   letter-spacing: 0.02em;
+}
+
+/* portfolio section */
+
+.project-description {
 }
