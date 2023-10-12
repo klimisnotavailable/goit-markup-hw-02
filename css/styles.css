@@ -304,3 +304,7 @@ p {
 .footer-text {
   color: var(--text-light);
 }
+
+.footer .logo-accent {
+  color: #f4f4fd;
+}
