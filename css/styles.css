@@ -118,8 +118,10 @@ h6 {
 
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--primary-text);
+  color: #434455;
   background-color: #ffffff;
+  /* color: var(--primary-text);
+  background-color: #ffffff; */
 }
 
 .section {
@@ -133,7 +135,7 @@ body {
   font-weight: 700;
   line-height: 1.07;
   text-align: center;
-  letter-spacing: 1.12px;
+  letter-spacing: 0.02em;
 }
 
 .section-title {
@@ -141,7 +143,7 @@ body {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
 }
@@ -150,18 +152,16 @@ p {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 /* header */
 .logo {
   font-family: "Raleway", sans-serif;
-  display: flex;
-  gap: 0px;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-accent);
 }
@@ -176,7 +176,7 @@ p {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 .navigation-link {
@@ -200,7 +200,7 @@ p {
 .address-link {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
   color: var(--address-link-primary);
 }
 
@@ -218,13 +218,15 @@ p {
 }
 
 .button {
+  font-family: inherit;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
   padding: 16px 32px;
   background-color: var(--primary-button);
   color: var(--button-text);
+  cursor: pointer;
 }
 
 .button:hover {
@@ -242,20 +244,21 @@ p {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
 }
 
 .benefit-text {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 /* team section */
 
 .team-section {
-  background-color: var(--background-light);
+  background-color: #f4f4fd;
+  /* background-color: var(--background-light); */
 }
 
 .master-item {
@@ -267,7 +270,7 @@ p {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
 }
 
 .master-position {
@@ -281,7 +284,7 @@ p {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 .project-name {
@@ -289,7 +292,7 @@ p {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
 }
 
 /* footer */
