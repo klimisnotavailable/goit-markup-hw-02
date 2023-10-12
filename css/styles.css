@@ -301,3 +301,7 @@ p {
 .footer-text {
   color: var(--text-light);
 }
+
+.footer .logo-accent {
+  color: var(--text-light);
+}
