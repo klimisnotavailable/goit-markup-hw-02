@@ -40,12 +40,6 @@ body {
   color: var(--primary-text);
   background-color: #ffffff;
 }
-/* 
-.section {
-  width: 1440px;
-  margin: 0 auto;
-}
- */
 .page-title {
   color: var(--text-white);
   font-size: 56px;
