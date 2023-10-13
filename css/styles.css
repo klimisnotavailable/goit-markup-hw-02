@@ -53,13 +53,13 @@ a:active {
   --background-white: rgba(255, 255, 255, 1);
   --background-dark: rgba(46, 47, 66, 1);
 }
-
+/* 
 nav,
 header,
 aside {
   display: block;
-}
-
+} */
+/* 
 html,
 body {
   height: 100%;
@@ -70,7 +70,7 @@ body {
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-}
+} */
 input,
 button,
 textarea {
@@ -123,12 +123,12 @@ body {
   /* color: var(--primary-text);
   background-color: #ffffff; */
 }
-
+/* 
 .section {
   width: 1440px;
   margin: 0 auto;
 }
-
+ */
 .page-title {
   color: var(--text-white);
   font-size: 56px;
@@ -223,7 +223,6 @@ p {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  padding: 16px 32px;
   background-color: var(--primary-button);
   color: var(--button-text);
   cursor: pointer;
