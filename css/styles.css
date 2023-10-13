@@ -3,7 +3,7 @@
   margin: 0;
   border: 0;
 } */
-*,
+/* *,
 *:before,
 *:after {
   -moz-box-sizing: border-box;
@@ -17,7 +17,7 @@
 a:focus,
 a:active {
   outline: none;
-}
+} */
 
 :root {
   /* logo */
